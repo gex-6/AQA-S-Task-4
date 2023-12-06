@@ -5,10 +5,12 @@ public class Main {
     public static void main(String[] args) {
         drawDiamond();
         System.out.println();
+
         int[] intArray = {31, 432, 3, 42, 51, 999, -1};
         bubbleSort(intArray);
         System.out.print(Arrays.toString(intArray));
         System.out.println();
+
         int[] intArray2 = {31, 432, 3, 42, 51, 999, -1};
         insertionSort(intArray2);
         System.out.println(Arrays.toString(intArray2));
